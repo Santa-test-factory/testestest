@@ -1,8 +1,8 @@
 ---
 layout: page
-title: index.md
+title: c4u-bpm-docu
 ---
 
-# Welcome index.md!
+# Welcome to the c4u-bpm-poc-maco wiki!
 
 [About Me](about.md)
