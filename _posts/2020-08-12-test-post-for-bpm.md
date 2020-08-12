@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First post for BPM
-published: true
+categories: testCat
 ---
 
 This is the first post to see if this works. 
