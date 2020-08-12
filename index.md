@@ -5,4 +5,4 @@ title: c4u-bpm-docu
 
 # Welcome to the c4u-bpm-poc-maco docu!
 
-[About Me](about.md)
+[About BPM](about.md)
