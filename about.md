@@ -1,5 +1,15 @@
-<h1> About me! </h1>
+---
+layout: page
+title: About
+---
 
-Here is some info about me!
+This is an about page about this awesome site.
+Hope you love it!
 
-[Back to the homepage](index.md)
+Reasons:
+- its great.
+- its a test.
+
+## Other thoughts
+
+This is great.
