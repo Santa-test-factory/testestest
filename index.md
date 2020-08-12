@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: basic
 title: c4u-bpm-docu
 ---
 
