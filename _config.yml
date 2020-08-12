@@ -1,8 +1,8 @@
 # basic options
-title: Testestest site for BPM
+title: Test site for BPM docu
 author: Santa Upeniece
 email: santa.upeniece@sap.com
-description: Test site for BPM
+description: Test site for BPM docu
 
 # Build settings
 markdown: kramdown
