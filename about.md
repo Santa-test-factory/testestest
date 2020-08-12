@@ -3,13 +3,6 @@ layout: page
 title: About
 ---
 
-This is an about page about this awesome site.
-Hope you love it!
+Welcome to Cloud for Utilities (C4U) Business Process Management (BPM) team, also knows as team ORCHS! 
 
-Reasons:
-- its great.
-- its a test.
-
-## Other thoughts
-
-This is great.
+If you have questions about this test repo please contact santa.upeniece@sap.com.
