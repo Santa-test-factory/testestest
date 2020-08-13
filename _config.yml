@@ -24,6 +24,8 @@ plugins:
     - jekyll-paginate
     - jekyll-category-pages
 
+
+github-username: Santa-test-factory
 minima: 
   social-links:
     github: testestest
