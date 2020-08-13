@@ -1,5 +1,6 @@
 ---
 title: c4u-bpm-docu
+layout: basic
 ---
 
 # Welcome to the c4u-bpm-poc-maco docu!
