@@ -10,6 +10,7 @@ header_pages:
   - pages/process_definition/processdefinition.md
   - pages/development/development.md
   - pages/QA/qa.md
+  - pages/publishing/publishing.md
  
 # Configure the plugin here
 category_path: "testestest/category" # <- default value
