@@ -6,11 +6,13 @@ description: Test site for BPM docu
 baseurl: "/testestest"
 url: "https://santa-test-factory.github.io"
 header_pages:
-  - pages/about/about.md
   - category/categories.html
   - pages/edom/edom.md
   - pages/naming archive/namingarchive.md
-
+ 
+footer_pages:
+  - pages/about/about.md
+ 
 # Configure the plugin here
 category_path: "testestest/category" # <- default value
 category_layout: "category_index.html" # <- default value
