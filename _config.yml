@@ -5,7 +5,10 @@ email: santa.upeniece@sap.com
 description: Test site for BPM docu
 baseurl: "/testestest"
 url: "https://santa-test-factory.github.io"
-permalink: date
+header_pages:
+  - pages/about/about.md
+  - pages/edom/edom.md
+  - pages/naming archive/naming-archive.md
 
 # Configure the plugin here
 category_path: "testestest/category" # <- default value
