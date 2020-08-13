@@ -9,9 +9,7 @@ header_pages:
   - category/categories.html
   - pages/process_definition/processdefinition.md
   - pages/development/development.md
- 
-footer_pages:
-  - pages/about/about.md
+  - pages/QA/qa.md
  
 # Configure the plugin here
 category_path: "testestest/category" # <- default value
