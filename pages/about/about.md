@@ -14,7 +14,7 @@ If you have questions about this test repo please contact <santa.upeniece@sap.co
 # And code samples too: 
 
 ```javascript
-if (BPMisAwesome){
+if (OrchsAreAwesome){
   return true
 }
 ```
