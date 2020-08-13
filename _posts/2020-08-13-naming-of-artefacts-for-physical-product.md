@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Naming of technical artefacts for Physical product
-categories: naming-documents
+categories: namingdocuments
 author: Santa
 ---
 
