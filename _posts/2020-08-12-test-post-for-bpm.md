@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Order Orchestration
-categories: orderOrchestration
+categories: orderorchestration
 author: Santa
 ---
 
