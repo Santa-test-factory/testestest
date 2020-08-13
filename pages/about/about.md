@@ -7,4 +7,8 @@ Welcome to Cloud for Utilities (C4U) Business Process Management (BPM) team, als
 
 If you have questions about this test repo please contact <santa.upeniece@sap.com>.
 
+# This is an example that we can put the imgaes here too:
+
+![Image of BPM Talisman](https://github.com/Santa-test-factory/testestest/tree/master/pages/about/ourorch.PNG)
+
 [Back to HOME](index.md)
