@@ -1,6 +1,7 @@
 ---
-title: Welcome to the c4u-bpm-poc-maco docu!
+title:  
 ---
+# Welcome to the c4u-bpm-poc-maco docu!
 
 <p>These are the categories for all blog posts:</p>
 <ul>
