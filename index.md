@@ -1,5 +1,5 @@
 ---
-title-display: none
+title: nil
 ---
 # Welcome to the c4u-bpm-poc-maco docu!
 
