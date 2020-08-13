@@ -7,8 +7,8 @@ baseurl: "/testestest"
 url: "https://santa-test-factory.github.io"
 header_pages:
   - category/categories.html
-  - pages/edom/edom.md
-  - pages/naming archive/namingarchive.md
+  - pages/process_definition/processdefinition.md
+  - pages/development/development.md
  
 footer_pages:
   - pages/about/about.md
