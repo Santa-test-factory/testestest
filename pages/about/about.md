@@ -9,6 +9,6 @@ If you have questions about this test repo please contact <santa.upeniece@sap.co
 
 # This is an example that we can put the imgaes here too:
 
-![Image of BPM Talisman](https://github.com/Santa-test-factory/testestest/blob/master/pages/about/ourorch.PNG)
+![Image of BPM Talisman](https://raw.githubusercontent.com/Santa-test-factory/testestest/master/pages/about/ourorch.PNG)
 
 [Back to HOME](index.md)
