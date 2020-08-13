@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Naming Archive
 categories: naming-documents
 ---
 
