@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+categories: orchsteam
 ---
 
 Welcome to Cloud for Utilities (C4U) Business Process Management (BPM) team, also known as team ORCHS! 
