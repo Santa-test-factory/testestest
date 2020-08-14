@@ -9,7 +9,7 @@ This is a filler for publishing content.
 <div id="archives">
 {% for category in site.categories %}
  {% capture category_name %}{{ category | first }}{% endcapture %}
-  {% if category_name == "publishing" $}
+  {% if category_name == "publishing" %}
   <div class="archive-group">
     
     <div id="#{{ category_name | slugize }}"></div>
