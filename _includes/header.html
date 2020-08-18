@@ -22,23 +22,23 @@
             {%- if my_page.title -%}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
-          {%- endfor -%} -->
-          {%- assign my_page = site.pages | where:"head" -%}
+          {%- endfor -%} --><ul>
+          {% assign my_page = site.pages | where:"head" %}
                     {%- for path in my_page -%}
-          <ul>
+          
             <li>{{path.title}}
              {%- if path.main -%}
             {% assign procdef = site.pages | where:"group","processdefinition" %}
-<ul>
-  {% for article in procdef %}
-    <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
-  {% endfor %}
-</ul>
+                <ul>
+                  {% for article in procdef %}
+                    <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
+                  {% endfor %}
+                </ul>
               {%- endif -%}
             </li>
-          </ul>
-          {%- endfor -%}
          
+          {%- endfor -%}
+          </ul>
          
         </div>
       </nav>
