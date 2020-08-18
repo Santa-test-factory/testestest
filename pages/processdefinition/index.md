@@ -1,7 +1,7 @@
 ---
 layout: page
 title: index page for process definition
-group: processdefinition
+main: processdefinition
 categories: processdefinition
 ---
 
