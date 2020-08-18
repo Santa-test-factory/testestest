@@ -1,11 +1,12 @@
 - title: "Development"
   href: "/pages/development/"
 
-- title: "Process Definition"
+- title: "ProcessDefinition"
     subcategories:
     - subtitle: "First Definition"
       subhref: "/pages/processdefinition/firstdefinition.md"
     - subtitle: "Example2"
       subhref: "/pages/processdefinition/seconddefinition.md"
+      
 - title: "Publishing"
   href: "/pages/publishing/"
