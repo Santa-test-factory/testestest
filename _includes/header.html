@@ -23,6 +23,11 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%} -->
+                    {%- for path in site.pages -%}
+          <ul>
+            <li>{{path.title}}</li>
+          </ul>
+          {%- endfor -%}
           {{site.pages}}
           {% assign procdef = site.pages | where:"grouped","processdefinition" %}
 <ul>
