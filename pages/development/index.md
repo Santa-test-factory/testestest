@@ -2,6 +2,7 @@
 layout: page
 title: index page for development
 group: development
+head: true
 categories: development
 ---
 
