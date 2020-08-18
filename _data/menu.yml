@@ -1,9 +1,9 @@
 primary:
   - title: QA
-    url: /qa/
+    url: /pages/qa/
   - title: Development
-    url: /development/
+    url: /pages/development/
   - title: Process Definition
-    url: /processdefinition/
+    url: /pages/processdefinition/
   - title: Publishing
-    url: /publishing/
+    url: /pages/publishing/
