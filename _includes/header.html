@@ -1,4 +1,4 @@
-<header class="site-header" role="banner">
+<!-- <header class="site-header" role="banner">
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
@@ -26,5 +26,49 @@
         </div>
       </nav>
     {%- endif -%}
+  </div>
+</header>
+ -->
+
+<header>
+  <div id="utility">
+  	<form id="search" action="{{site.baseurl}}/search/" method="GET">
+      <input type="text" name="q" placeholder="Search">
+      <button type="submit"><span class="icon-search"></span></button>
+    </form>
+  </div>
+  <div class="wrap">
+    <div class="brand">
+      <a class="logo" href="/">
+      	<img src="{{ site.baseurl }}/assets/images/feeding-texas-id.png">
+      </a>
+    </div>
+    <div class="secondary-nav">
+      <nav>
+        <ul>
+      		{% for link in site.data.menu.action %}
+          <li><a alt="{{ link.title }}" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+      		{% endfor %}
+      		<li id="site-search">
+      			<a id="search-toggle"><span  class="icon-search"></span></a>
+      		</li>
+      		<li>
+            <a alt="Menu" id="menu-toggle"><span class="icon-list"></span></a>
+      		</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="primary-nav">
+      <nav>
+      	<ul>
+      		{% for link in site.data.menu.primary %}
+          <li><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+      		{% endfor %}
+          {% for link in site.data.menu.action %}
+          <li class="mobile-action-link"><a href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
