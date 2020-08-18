@@ -30,3 +30,15 @@ github-username: Santa-test-factory
 minima: 
   social-links:
     github: testestest
+
+# This is from https://github.com/thinkshout/feeding-texas/blob/master/_config.yml
+# Team directory used by the data_to_pages plugin.
+location_dir: 'locations'
+# contact_redirect: 'thanks'
+tag_dir: 'blog/category'
+# directory for csv data used to construct zip detail pages
+# csv_dir: '_data'
+
+# Blog pagination.
+# paginate: 10
+# paginate_path: "blog/page:num"
