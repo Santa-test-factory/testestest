@@ -2,6 +2,8 @@
 layout: page
 title: Publishing
 categories: publishing
+group: publishing
+sort_order: 4
 ---
 
 This is a filler for publishing content.
