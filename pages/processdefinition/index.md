@@ -2,6 +2,7 @@
 layout: page
 title: index page for process definition
 main: processdefinition
+head: true
 categories: processdefinition
 ---
 
