@@ -5,12 +5,12 @@ email: santa.upeniece@sap.com
 description: Test site for BPM docu
 baseurl: "/testestest"
 url: "https://santa-test-factory.github.io"
-header_pages:
-  - category/categories.html
-  - pages/process_definition/processdefinition.md
-  - pages/development/development.md
-  - pages/qa/qa.md
-  - pages/publishing/publishing.md
+# header_pages:
+#   - category/categories.html
+#   - pages/process_definition/processdefinition.md
+#   - pages/development/development.md
+#   - pages/qa/qa.md
+#   - pages/publishing/publishing.md
  
 # Configure the plugin here
 category_path: "testestest/category" # <- default value
