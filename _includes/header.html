@@ -1,4 +1,4 @@
-<!-- <header class="site-header" role="banner">
+<header class="site-header" role="banner">
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
@@ -23,15 +23,24 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
+          {% assign procdef = site.pages | where:"grouped","processdefinition" %}
+<ul>
+  {% for article in procdef %}
+    <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
+  {% endfor %}
+</ul>
         </div>
       </nav>
     {%- endif -%}
   </div>
+</header>
+
+
+<!-- <header class="site-header" role="banner">
+
 </header> -->
 
-
-<header class="site-header" role="banner">
-<nav>
+<!-- <nav>
   <ul>
     {% for nav in site.data.nav %}
       {% if nav.subcategories != null %}
@@ -54,5 +63,4 @@
       {% endif %}
     {% endfor %}
   </ul>
-</nav> 
-</header>
+</nav>  -->
