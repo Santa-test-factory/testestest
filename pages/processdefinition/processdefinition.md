@@ -2,7 +2,6 @@
 layout: page
 title: Process Definition2
 categories: processdefinition
-group: processdefinition
 sort_order: 3
 ---
 
