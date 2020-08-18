@@ -5,8 +5,8 @@
 #   href: "/pages/processdefinition/"
     subcategories:
     - subtitle: "First Definition"
-      subhref: "/pages/processdefinition/"
+      subhref: "/pages/processdefinition/firstdefinition.md"
     - subtitle: "Example2"
-      subhref: "#"
+      subhref: "/pages/processdefinition/seconddefinition.md"
 - title: "Publishing"
   href: "/pages/publishing/"
