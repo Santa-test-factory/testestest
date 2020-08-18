@@ -9,7 +9,7 @@ header_pages:
   - category/categories.html
   - pages/process_definition/processdefinition.md
   - pages/development/development.md
-  - pages/QA/qa.md
+  - pages/qa/qa.md
   - pages/publishing/publishing.md
  
 # Configure the plugin here
