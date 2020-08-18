@@ -24,7 +24,7 @@
             {%- endif -%}
           {%- endfor -%} -->
           <ul>
-          {% assign my_page = site.pages  %}
+          {% assign my_page = site.pages | where:"head","true" %}
                     {%- for path in my_page -%}
           
             <li>{{path.title}}
