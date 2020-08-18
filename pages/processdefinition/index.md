@@ -1,4 +1,4 @@
-  ---
+---
 layout: page
 title: index page for process definition
 group: processdefinition
