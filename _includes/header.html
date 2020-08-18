@@ -39,17 +39,17 @@
           <a href="{{ site.url }}{{ nav.url }}">{{ nav.title }} ▼</a>
           <ul>
           {% for subcategory in nav.subcategories %}
-            <li><a href="{{ site.url }}{{ subcategory.subhref }}">{{ subcategory.subtitle }}</a></li>
+            <li><a href="{{ site.url }}{{ subcategory.subhref | relative_url }}">{{ subcategory.subtitle }}</a></li>
           {% endfor %}
           </ul>
         </li>
       {% elsif nav.title == page.title %}
          <li class="active">
-           <a href="{{ nav.url }}">{{ nav.title }}</a>
+           <a href="{{ nav.url | relative_url }}">{{ nav.title }}</a>
          </li>
       {% else %} 
         <li>
-          <a href="{{ site.url }}{{ nav.href }}">{{ nav.title }}</a>
+          <a href="{{ site.url }}{{ nav.href | relative_url }}">{{ nav.title }}</a>
         </li>
       {% endif %}
     {% endfor %}
