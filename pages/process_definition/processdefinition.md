@@ -2,6 +2,8 @@
 layout: page
 title: Process Definition
 categories: processdefinition
+group: processdefinition
+sort_order: 3
 ---
 
 This is a filler for info for Process Definition content.
