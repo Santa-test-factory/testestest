@@ -25,16 +25,20 @@
           {%- endfor -%} -->
                     {%- for path in site.pages -%}
           <ul>
-            <li>{{path.group}}</li>
-          </ul>
-          {%- endfor -%}
-         
-          {% assign procdef = site.pages | where:"group","processdefinition" %}
+            <li>{{path.title}}
+             {%- if path.main -%}
+            {% assign procdef = site.pages | where:"group","processdefinition" %}
 <ul>
   {% for article in procdef %}
     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
   {% endfor %}
 </ul>
+              {%- endif -%}
+            </li>
+          </ul>
+          {%- endfor -%}
+         
+         
         </div>
       </nav>
     {%- endif -%}
