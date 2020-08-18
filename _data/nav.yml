@@ -6,7 +6,7 @@
     - subtitle: "First Definition"
       subhref: "/pages/processdefinition/firstdefinition.md"
     - subtitle: "Example2"
-      subhref: {{ "/" | relative_url }}
+      subhref: "#"
       
 - title: "Publishing"
   href: "/pages/publishing/"
