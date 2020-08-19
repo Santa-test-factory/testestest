@@ -29,7 +29,7 @@
 
 .menu li:hover > a, .menu .current-item > a {
 	text-decoration:none;
-	color:#FF69B4;
+	color:#339c69;
 }
 
 .menu .arrow {
