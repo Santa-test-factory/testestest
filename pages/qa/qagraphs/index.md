@@ -4,6 +4,7 @@ title: QA Graphs
 main: qagraphs
 head: true
 categories: qa
+group: qa
 sort-order: 1
 ---
 
