@@ -1,7 +1,8 @@
 ---
 layout: page
 title: index page for QA
-group: qa
+main: qa
+head: true
 categories: qa
 ---
 
