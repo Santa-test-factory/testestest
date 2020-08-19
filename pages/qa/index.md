@@ -2,7 +2,7 @@
 layout: page
 title: QA
 main: qa
-head:true
+head: true
 categories: qa
 sort-order: 3
 ---
