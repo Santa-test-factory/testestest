@@ -1,6 +1,6 @@
 ---
 layout: page
-title: index page for publishing
+title: Publishing
 main: publishing
 head: true
 categories: publishing
