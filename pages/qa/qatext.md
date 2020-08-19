@@ -1,6 +1,7 @@
 ---
-title: QA
+title: QA text
 layout: page
+group: qa
 author: Santa
 categories: qa
 ---
