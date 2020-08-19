@@ -23,21 +23,17 @@
                     {%- for path in my_page -%}
           
             <li class="dropdown">{{path.title}}
-              {% for page in site.pages | where:"head","true" %}
-            
-              
-              
-<!--               {%- if path.main == "processdefinition" -%} -->
-            {% assign firstlevel = site.pages | where:"group", site.main %}
+              {%- if path.main == "processdefinition" -%}
+            {% assign firstlevel = site.pages | where:"group", "processdefinition" %}
                 <ul class="dropdown-content">
                   {% for article in firstlevel %}
                     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
                   {% endfor %}
                 </ul>
-              {% endfor %}
-<!--               {%- endif -%} -->
+          
+              {%- endif -%}
               
-<!--                {%- if path.main == "qa" -%}
+               {%- if path.main == "qa" -%}
             {% assign procdef = site.pages | where:"group","qa" %}
                 <ul class="dropdown-content">
                   {% for article in procdef %}
@@ -69,7 +65,7 @@
                     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
                   {% endfor %}
                 </ul>
-              {%- endif -%} -->
+              {%- endif -%}
               
             </li>
          
