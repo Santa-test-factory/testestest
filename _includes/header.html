@@ -38,7 +38,7 @@
                   {% for article in procdef %}
                     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
                   {% endfor %}
-                  {%- if path.main == "qagraphs" -%}
+                  {%- if path.sub == "qagraphs" -%}
                    {% assign procdef = site.pages | where:"group","qagraphs" %}
                 <ul class="dropdown-sublevel">
                   {% for article in procdef %}
