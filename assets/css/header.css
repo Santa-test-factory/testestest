@@ -18,4 +18,6 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+  color:#339c69;
+  background:#F5F5F5;
 }
