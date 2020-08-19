@@ -64,7 +64,7 @@
 .sub-menu {
 	width:20%;
 	padding:5px 0px;
-	position:absolute;
+	position:relative;
 /* 	top:100%; */
 	z-index:-1;
 	opacity:0;
