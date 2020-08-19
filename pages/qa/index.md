@@ -1,6 +1,6 @@
 ---
 layout: page
-title: index page for QA
+title: QA
 main: qa
 head: true
 categories: qa
