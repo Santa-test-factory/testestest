@@ -29,7 +29,7 @@
                     {%- for path in my_page -%}
           
             <li>{{path.title}}
-             {%- if path.main -%}
+             {%- if path.main == "processdefinition" -%}
             {% assign procdef = site.pages | where:"group","processdefinition" %}
                 <ul class="sub-menu">
                   {% for article in procdef %}
