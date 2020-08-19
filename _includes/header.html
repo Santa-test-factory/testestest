@@ -1,13 +1,13 @@
-<link rel="stylesheet" href="/testestest/assets/css/main.css">
+<link rel="stylesheet" href="/testestest/assets/css/header.css">
 <header class="site-header" role="banner">
 
-  <div class="wrapper menu-wrap">
+  <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
 <!--     {%- assign page_paths = site.header_pages | default: default_paths -%} -->
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
     {%- if page_paths -%}
-      <nav class="site-nav menu">
+      <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -28,10 +28,10 @@
           {% assign my_page = site.pages | where:"head","true" %}
                     {%- for path in my_page -%}
           
-            <li>{{path.title}}
+            <li class="dropdown">{{path.title}}
              {%- if path.main == "processdefinition" -%}
             {% assign procdef = site.pages | where:"group","processdefinition" %}
-                <ul class="sub-menu">
+                <ul class="dropdown-content">
                   {% for article in procdef %}
                     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
                   {% endfor %}
@@ -39,7 +39,7 @@
               {%- endif -%}
                {%- if path.main == "qa" -%}
             {% assign procdef = site.pages | where:"group","qa" %}
-                <ul class="sub-menu">
+                <ul class="dropdown-content">
                   {% for article in procdef %}
                     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
                   {% endfor %}
@@ -47,7 +47,7 @@
               {%- endif -%}
                {%- if path.main == "publishing" -%}
             {% assign procdef = site.pages | where:"group","publishing" %}
-                <ul class="sub-menu">
+                <ul class="dropdown-content">
                   {% for article in procdef %}
                     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
                   {% endfor %}
@@ -55,7 +55,7 @@
               {%- endif -%}
                {%- if path.main == "development" -%}
             {% assign procdef = site.pages | where:"group","development" %}
-                <ul class="sub-menu">
+                <ul class="dropdown-content">
                   {% for article in procdef %}
                     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
                   {% endfor %}
