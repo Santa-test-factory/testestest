@@ -1,10 +1,9 @@
 ---
 layout: page
-title: QA
-main: qa
-head: true
-categories: qa
-sort-order: 3
+title: QA Graphs
+sub: qagraphs
+categories: qagraphs
+sort-order: 1
 ---
 
-### This is an index page to see if this works for QA
+### This is an index page to see if this works for QA GRAPHS
