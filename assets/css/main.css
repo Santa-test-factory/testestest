@@ -24,7 +24,7 @@
 
 .menu a {
 	transition:all linear 0.15s;
-	color:#4B0082;
+	color:#424242;
 }
 
 .menu li:hover > a, .menu .current-item > a {
@@ -81,10 +81,11 @@
 }
 
 .sub-menu li a {
+	line-height: 20px;
 	padding:10px 20px;
 	display:block;
 }
 
 .sub-menu li a:hover, .sub-menu .current-item a {
-	background:#008000;
+	background:#F5F5F5;
 }
