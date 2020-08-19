@@ -28,7 +28,7 @@
               
               
 <!--               {%- if path.main == "processdefinition" -%} -->
-            {% assign firstlevel = site.pages | where:"group", path.main %}
+            {% assign firstlevel = site.pages | where:"group", site.main %}
                 <ul class="dropdown-content">
                   {% for article in firstlevel %}
                     <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
