@@ -23,12 +23,12 @@
 
 .menu a {
 	transition:all linear 0.15s;
-	color:#919191;
+	color:#4B0082;
 }
 
 .menu li:hover > a, .menu .current-item > a {
 	text-decoration:none;
-	color:#F8F8FF;
+	color:#FF69B4;
 }
 
 .menu .arrow {
@@ -79,10 +79,10 @@
 }
 
 .sub-menu li a {
-	padding:10px 30px;
+	padding:10px 20px;
 	display:block;
 }
 
 .sub-menu li a:hover, .sub-menu .current-item a {
-	background:#fdfdfd;
+	background:#008000;
 }
