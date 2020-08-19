@@ -37,6 +37,30 @@
                   {% endfor %}
                 </ul>
               {%- endif -%}
+               {%- if path.main == "qa" -%}
+            {% assign procdef = site.pages | where:"group","qa" %}
+                <ul class="sub-menu">
+                  {% for article in procdef %}
+                    <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              {%- endif -%}
+               {%- if path.main == "publishing" -%}
+            {% assign procdef = site.pages | where:"group","publishing" %}
+                <ul class="sub-menu">
+                  {% for article in procdef %}
+                    <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              {%- endif -%}
+               {%- if path.main == "development" -%}
+            {% assign procdef = site.pages | where:"group","development" %}
+                <ul class="sub-menu">
+                  {% for article in procdef %}
+                    <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              {%- endif -%}
             </li>
          
           {%- endfor -%}
