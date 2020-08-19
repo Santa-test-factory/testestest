@@ -62,7 +62,7 @@
 }
 
 .sub-menu {
-	width:100%;
+	width:20%;
 	padding:5px 0px;
 	position:absolute;
 	top:100%;
@@ -72,6 +72,7 @@
 	transition:opacity linear 0.15s;
 	box-shadow:0px 2px 3px rgba(0,0,0,0.2);
 	background:#fdfdfd;
+	line-height: 7px;
 }
 
 .sub-menu li {
