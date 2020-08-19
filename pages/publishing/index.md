@@ -1,7 +1,8 @@
 ---
 layout: page
 title: index page for publishing
-group: publishing
+main: publishing
+head: true
 categories: publishing
 ---
 
