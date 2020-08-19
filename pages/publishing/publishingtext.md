@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publishing
+title: Publishing text
 categories: publishing
 group: publishing
 sort_order: 4
