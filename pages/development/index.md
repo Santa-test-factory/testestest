@@ -1,6 +1,6 @@
 ---
 layout: page
-title: index page for development
+title: Development
 main: development
 head: true
 categories: development
