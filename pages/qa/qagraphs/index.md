@@ -2,7 +2,6 @@
 layout: page
 title: QA Graphs
 sub: qagraphs
-head: true
 categories: qagraphs
 sort-order: 1
 ---
