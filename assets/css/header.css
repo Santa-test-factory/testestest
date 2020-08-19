@@ -21,3 +21,21 @@
   color:#339c69;
   background:#F5F5F5;
 }
+
+.dropdown-sublevel {
+    position: absolute;
+    top: 0;
+    right: -150px;
+    width: 150px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.dropdown-sublevel > li
+{
+    height: 30px;
+    background: #999999;
+}
+.dropdown-sublevel > li:hover { background: #CCCCCC; }
