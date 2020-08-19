@@ -25,7 +25,7 @@
             {%- endif -%}
           {%- endfor -%} -->
           <ul class="clearfix">
-          {% assign my_page = site.pages | where:"head","true" %}
+          {% assign my_page = site.pages | where:"head","true" | sort: "sort-order" %}
                     {%- for path in my_page -%}
           
             <li class="dropdown">{{path.title}}
