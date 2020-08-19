@@ -16,6 +16,7 @@
 }
 
 .menu li {
+	padding: 10px 10px 30px 5px;
 	display: inline;
 	margin:5px;
 	list-style:none;
