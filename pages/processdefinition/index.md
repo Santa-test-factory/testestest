@@ -1,6 +1,6 @@
 ---
 layout: page
-title: index page for process definition
+title: Process Definition
 main: processdefinition
 head: true
 categories: processdefinition
