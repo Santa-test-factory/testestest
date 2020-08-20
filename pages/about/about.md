@@ -6,7 +6,7 @@ categories: orchsteam
 
 Welcome to Testestest team, also known as team ORCHS! 
 
-If you have questions about this test repo please contact <santa.upeniece@sap.com>.
+If you have questions about this test repo please contact <santa.upeniece.lv@gmail.com>.
 
 # This is an example that we can put code samples here:
 
