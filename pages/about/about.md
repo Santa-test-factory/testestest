@@ -4,7 +4,7 @@ title: About
 categories: orchsteam
 ---
 
-Welcome to Cloud for Utilities (C4U) Business Process Management (BPM) team, also known as team ORCHS! 
+Welcome to Testestest team, also known as team ORCHS! 
 
 If you have questions about this test repo please contact <santa.upeniece@sap.com>.
 
