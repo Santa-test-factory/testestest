@@ -11,7 +11,7 @@ layout: home
           <a class="post-link" href="{{ post.url }}">
         {{ post.title }}
           </a>
-        </h3></li><li><span class="post-meta">Aug 12, 2020</span>
-      </li>
+        </h3>
+</li>
    {% endfor %}
 	  </ul>
