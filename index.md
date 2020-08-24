@@ -1,6 +1,6 @@
 ---
 title: Team ORCHS
-layout: home
+layout: page
 ---
 ## Welcome to the TESTESTEST docu!
 
